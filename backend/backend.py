@@ -1,6 +1,6 @@
 from flask import Flask
 
-app = Flask("nombre")
+app = Flask(__name__)
 
 @app.route("/")
 def blank():
